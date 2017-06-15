@@ -6,9 +6,9 @@
   <input id="second-name" type="text" name="second_name">
 
   <label for="select-house">Select House:</label>
-  <select id="select-house" name="house">
+  <select id="select-house" name="house_id">
     <% for house in @houses %>
-    <option value = " <%= house.id  %>"><%= house.name  %></option>
+    <option value = " <%= house.id  %>"><%= house.name %></option>
     <% end %>
   </select>
 
