@@ -30,7 +30,7 @@ house4.save()
 student1 = Student.new({
   "first_name" => "Harry",
   "second_name" => "Potter",
-  "house" => house1.id,
+  "house_id" => house1.id,
   "age" => 15,
   "url" => "https://upload.wikimedia.org/wikipedia/en/4/44/HarryPotter5poster.jpg"
    })
@@ -38,7 +38,7 @@ student1 = Student.new({
 student2 = Student.new({
   "first_name" => "Hermione",
   "second_name" => "Granger",
-  "house" => house2.id,
+  "house_id" => house2.id,
   "age" => 14,
   "url" => "https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg"
    })
